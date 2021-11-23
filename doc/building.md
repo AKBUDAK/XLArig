@@ -8,6 +8,22 @@ cmake ..
 make -j$(nproc)
 ```
 
+### tERMUX  FOR- ANDROİD
+apt update
+apt upgrade
+apt install git
+apt install wget
+apt install proot
+apt-get install git build-essential cmake libuv1-dev libmicrohttpd-dev libssl-dev
+git clone https://github.com/scala-network/xlarig
+cd xlarig
+mkdir build
+cd build
+cmake -DWITH_HWLOC=OFF ..
+make
+
+
+
 ### Arch Linux
 
 
